@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Chrismas Greeting </title>
+    <link rel="stylesheet" href="xmas.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Merry Chrismas &  Happy New Year!</h1>
+        <p>Personalize your greeting and share it with friends!</p>
+        <div class="form-group">
+            <label for="name">Enter your namr:</label>
+            <input type="text" id="name" placeholder="Your name here...">
+        </div>
+
+        <button onclick="generateCard()">Generate Greeting</button>
+        <div id="greeting-card" class="card hidden">
+            <h2 id="personal-message"></h2>
+            <p>Wishing you all the joy and happiness this festive season!</p>
+            <button onclick="shareGreeting()">Share Greeting</button>
+        </div>
+
+    </div>
+    <script src="xmas.js"></script>
+</body>
+</html>
